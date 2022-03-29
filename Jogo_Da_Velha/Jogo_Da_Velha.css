@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(226, 225, 178);
+}
+h1 {
+  color: rgb(24, 11, 145);
+  font: 200 Arial;
+  text-align: center;
+}
+
+span {
+  color: rgb(194, 9, 9);
+  font-size: 25px;
+}
+
+a {
+  padding: 0.5rem;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+  border: 0.1rem solid rgb(24, 11, 145);
+  background: rgb(169, 164, 212);
+  border-radius: 0.4rem;
+}
+
+li {
+  text-align: end;
+  padding: 3rem;
+}
+
+img {
+  border: 0;
+  height: 30%;
+  width: 30%;
+  margin: auto;
+  display: grid;
+  padding-top: 2rem;
+}
