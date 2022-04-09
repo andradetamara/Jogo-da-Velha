@@ -78,7 +78,7 @@ function verificarVencedor() {
   ) {
     vencedor = c3
   }
-  if (vencedor != '') {
+  if (vencedor != '' | vencedor == 'b2' || vencedor == 'c3') {
     gameOver = true
     alert("O ganhador foi o: '" + vencedor + "'")
   }
